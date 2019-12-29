@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>learning on Brainfreeze</title>
+    <link>https://scoty.github.io/tags/learning/</link>
+    <description>Recent content in learning on Brainfreeze</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 29 Dec 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://scoty.github.io/tags/learning/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Learning Multiple New Technologies at the Same Time</title>
+      <link>https://scoty.github.io/post/learning-multiple-new-technologies-at-the-same-time/</link>
+      <pubDate>Sun, 29 Dec 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://scoty.github.io/post/learning-multiple-new-technologies-at-the-same-time/</guid>
+      <description>Intro Learning multiple new technologies may prove to be a challenge. Recently for a new project that I have been assigned to I was in a situation where I had to learn multiple new &amp;ldquo;tricks&amp;rdquo; so in timely manner.</description>
+    </item>
+    
+  </channel>
+</rss>
