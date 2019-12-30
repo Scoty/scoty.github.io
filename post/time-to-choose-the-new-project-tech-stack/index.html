@@ -131,7 +131,7 @@
 <a href="https://scoty.github.io/tags/tech-stack"><kbd class="item-tag">tech stack</kbd></a>
 
 
-        <h5>Reading time: 3 minute(s)</h5>
+        <h5>Reading time: 5 minute(s)</h5>
     </div>
 
     <div align="start" class="content"><h2 id="intro">Intro</h2>
@@ -140,8 +140,13 @@
 <p>This should be a no-brainer - the latest version offering LTS, preferably offered by Oracle&hellip; So our choice was to use JDK 11 as JDK 12 and 13 do not offer any major dev related changes.</p>
 <p>However due to the <a href="https://www.oracle.com/technetwork/java/javase/overview/oracle-jdk-faqs.html">new Oracle's licensing terms</a> we had to choose different vendor, which of course should pass the TCK (Test Compatibility Kit). So we ended up with Amazon's Corretto.</p>
 <h3 id="why-amazon-corretto-">Why Amazon Corretto ?</h3>
-<p>Longer support time-windows (at least August 2024). Backport of security fixes from more recent versions of Java: you can check the changelog <a href="https://docs.aws.amazon.com/corretto/latest/corretto-11-ug/change-log.html">here</a>. The <a href="https://aws.amazon.com/corretto/faqs/">F.A.Q.</a> explains what exactly you are getting choosing to go with Corretto.</p>
-<p>As a bonus here is James Gosling talk on Corretto:</p>
+<p>Longer support time-windows (at least August 2024). Backport of security fixes from more recent versions of Java: you can check the changelog <a href="https://docs.aws.amazon.com/corretto/latest/corretto-11-ug/change-log.html">here</a>. The <a href="https://aws.amazon.com/corretto/faqs">F.A.Q.</a> explains what exactly you are getting choosing to go with Corretto.</p>
+<p>As a bonus here is the James Gosling talk on Corretto:</p>
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe src="https://www.youtube.com/embed/WuZk23O76Zk" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
+</div>
+
 <h3 id="other-vendors">Other vendors:</h3>
 <p>While we have chosen Corretto the below vendors might be considered at a later stage:</p>
 <h4 id="azuls-zulu"><del>Azul's Zulu</del></h4>
@@ -162,6 +167,35 @@ targetCompatibility <span style="color:#f92672">=</span> <span style="color:#ae8
     <span style="color:#f92672">&lt;/configuration&gt;</span>
 <span style="color:#f92672">&lt;/plugin&gt;</span>
 </code></pre></div><p>Also <a href="https://stackoverflow.com/questions/49398894/unable-to-compile-simple-java-10-java-11-project-with-maven">those headaches</a> related to using Maven and JDK &gt;= 9.</p>
+<h2 id="main-framework--serverless-provider--webapp-container">Main framework / Server(less) provider / WebApp container</h2>
+<p>To be honest this is not as easy choice as someone may think. We have projects using <a href="https://micronaut.io">Micronaut</a>, <a href="https://www.dropwizard.io">Dropwizard</a> and <a href="https://aws.amazon.com/lambda">AWS Lambda</a> along with monoliths using <a href="https://spring.io">Spring</a> deployed on Jetty. <a href="https://quarkus.io">Quarkus</a> is currently the new kid on the block that was also considered. <a href="https://struts.apache.org">Struts</a> is still alive, <a href="https://vertx.io">Vert.x</a> and <a href="https://vaadin.com">Vaadin</a> are also options.</p>
+<p>Someone once compared Micronaut to a tool and Spring to the whole hardware store(I could not agree more). Our choice(though one) was to go with Spring. Not only that it offers almost any tool that we will ever need, but is modular so one can chose which things &ldquo;to grab&rdquo; from the &ldquo;hardware store&rdquo;. It is easy to find talented devs that know it's internals. The documentation is in its own class, IMO no other framework comes close. The &ldquo;more modern&rdquo; frameworks (looking @Micronaut) may offer the basics, but when it comes to something specific it feels somewhat lacking to the point that a team of my company had to open a PR to fix a bug that we were experiencing.</p>
+<h3 id="our-choice-spring-boot--springhttpsspringio">Our choice: <a href="https://spring.io">Spring Boot + Spring</a></h3>
+<p>Production proven. Suitable for microservice architecture. Easy to find people with working experience and knowledge of it. Rich ecosystem.</p>
+<h2 id="quality-of-life-framework">Quality of Life framework</h2>
+<p><a href="https://projectlombok.org">Lombok</a> - Some people hate it(<a href="https://medium.com/@ppbruna/why-you-should-not-use-lombok-f7556662e8c3">Bruna Pereira</a>, <a href="https://medium.com/@vgonzalo/dont-use-lombok-672418daa819">Gonzalo Vallejos</a>, some love it and can't live without it. Defining <code>data classes</code> becomes easier than Java, still not at the level of Kotlin. Extra care should be taken to not hit any known bugs/features of Lombok.</p>
+<h2 id="container-tech--container-orchestration">Container tech / Container orchestration</h2>
+<p><a href="https://www.docker.com/">Docker</a></p>
+<p>Extensive documentation, easy to find people with working experience with it both Developers and Dev Ops. More than 80% of container market &ldquo;owned&rdquo; by Docker. <a href="https://coreos.com/rkt/docs/1.28.0/rkt-vs-other-projects.html">CoreOS's rkt</a>, <a href="https://mesosphere.github.io/marathon">Mesos's Marathon</a>, <a href="https://linuxcontainers.org">lxc</a> and others are lacking the rich ecosystem that Docker has, too complex or too immature to consider.</p>
+<p><a href="https://kubernetes.io">K8s</a></p>
+<p>My company is using on premise hosted K8s deployment. Inbuilt logging and monitor tools. Dashboard. Automatic rollbacks, rolling updates.</p>
+<p><a href="https://helm.sh/">Helm</a></p>
+<p>To easy our life deploying to K8s.</p>
+<h2 id="logging-framework">Logging framework</h2>
+<p><a href="http://www.slf4j.org">SLF4J</a>
+This logging facade already offers a fluent API akin to Flogger. Painless switching of backends. Mandatory read: <a href="http://www.slf4j.org/manual.html">SLF4J Manual</a></p>
+<p><a href="https://logging.apache.org/log4j/2.x">Log4j2</a> / <a href="http://logback.qos.ch">Logback</a>
+We should consider which backend engine to use, as both have Pros and Cons. Spring's usage of Logback might tilt the scale.</p>
+<p><a href="https://github.com/google/flogger">Flogger</a>
+Fluent API logging developed and supported by Google - sounds cool, but still too immature, till recently was using Log4j (not 2!) as the only backend.</p>
+<h2 id="message-system--stream-data-processing">Message system / Stream data processing</h2>
+<p><a href="">Kafka</a>
+De Facto standard in stream processing. We will be send real time data which needs to be validated, transformed, stored, and send to our internal systems.</p>
+<p><a href="">Flink</a>
+<a href="">Camel</a>
+<a href="">Kafka Streams</a></p>
+<h2 id="persistence">Persistence</h2>
+<p>SQL/NoSQL - <a href="https://www.mysql.com">mySQL</a>(no native JSON datastore) / <a href="https://www.postgresql.org">postgreSQL</a>(&gt;12 JSON capabilities greatly improved) or <a href="https://www.mongodb.com">MongoDB</a>(&gt;4 ACID guaranties) / <a href="https://redis.io">Redis</a></p>
 </div>
 
     
