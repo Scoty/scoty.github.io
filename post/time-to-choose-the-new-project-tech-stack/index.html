@@ -62,7 +62,7 @@
 
 
 <script>$(document).on('click', function() { $('.collapse').collapse('hide'); })</script>
- <meta name="generator" content="Hugo 0.62.0" />
+ <meta name="generator" content="Hugo 0.78.1" />
         
 
         
@@ -135,10 +135,10 @@
     </div>
 
     <div align="start" class="content"><h2 id="intro">Intro</h2>
-<p>At a team lead it is my responsibility (coordinated with the company's wide technical experience and architects) to choose the new project tech stack. I am the kind of a person that would go with the screaming edge tech just for the rush of experience something new and making my everyday developer life more interesting. However from practical point of view, as the project(integration with a major odds supplier) that we are about to create is somewhat crucial for the business I do not have that liberty and I have to stick with a modern, but proven technologies. Interesting enough I can go with any JVM supported language, but despite my love for Kotlin I had to choose JDK 11 over it - simply because we do not have time to get four people up to speed with a new language plus couple of new tech for each of them. But lets get to the point: in the below sections I discuss each and every choice that had to be made in more detail:</p>
+<p>At a team lead it is my responsibility (coordinated with the company&rsquo;s wide technical experience and architects) to choose the new project tech stack. I am the kind of a person that would go with the screaming edge tech just for the rush of experience something new and making my everyday developer life more interesting. However from practical point of view, as the project(integration with a major odds supplier) that we are about to create is somewhat crucial for the business I do not have that liberty and I have to stick with a modern, but proven technologies. Interesting enough I can go with any JVM supported language, but despite my love for Kotlin I had to choose JDK 11 over it - simply because we do not have time to get four people up to speed with a new language plus couple of new tech for each of them. But lets get to the point: in the below sections I discuss each and every choice that had to be made in more detail:</p>
 <h2 id="jdk-version--vendor">JDK Version / Vendor</h2>
 <p>This should be a no-brainer - the latest version offering LTS, preferably offered by Oracle&hellip; So our choice was to use JDK 11 as JDK 12 and 13 do not offer any major dev related changes.</p>
-<p>However due to the <a href="https://www.oracle.com/technetwork/java/javase/overview/oracle-jdk-faqs.html">new Oracle's licensing terms</a> we had to choose different vendor, which of course should pass the TCK (Test Compatibility Kit). So we ended up with Amazon's Corretto.</p>
+<p>However due to the <a href="https://www.oracle.com/technetwork/java/javase/overview/oracle-jdk-faqs.html">new Oracle&rsquo;s licensing terms</a> we had to choose different vendor, which of course should pass the TCK (Test Compatibility Kit). So we ended up with Amazon&rsquo;s Corretto.</p>
 <h3 id="why-amazon-corretto-">Why Amazon Corretto ?</h3>
 <p>Longer support time-windows (at least August 2024). Backport of security fixes from more recent versions of Java: you can check the changelog <a href="https://docs.aws.amazon.com/corretto/latest/corretto-11-ug/change-log.html">here</a>. The <a href="https://aws.amazon.com/corretto/faqs">F.A.Q.</a> explains what exactly you are getting choosing to go with Corretto.</p>
 <p>As a bonus here is the James Gosling talk on Corretto:</p>
@@ -149,34 +149,34 @@
 
 <h3 id="other-vendors">Other vendors:</h3>
 <p>While we have chosen Corretto the below vendors might be considered at a later stage:</p>
-<h4 id="azuls-zulu"><del>Azul's Zulu</del></h4>
-<p>They are a long time &ldquo;player&rdquo; in offering a JDK implementation. Theirs Zing JVM sounds good, but comes at a hefty price. They offer their own set of tools and/or implementation of existing Oracle's tools such as Mission Control, Flight Recorder, etc. However to fully rely on those you first - get coupled to a vendor and second - most of the really useful features come as a part of Zulu's subscription plan or have to be paid for.</p>
+<h4 id="azuls-zulu"><del>Azul&rsquo;s Zulu</del></h4>
+<p>They are a long time &ldquo;player&rdquo; in offering a JDK implementation. Theirs Zing JVM sounds good, but comes at a hefty price. They offer their own set of tools and/or implementation of existing Oracle&rsquo;s tools such as Mission Control, Flight Recorder, etc. However to fully rely on those you first - get coupled to a vendor and second - most of the really useful features come as a part of Zulu&rsquo;s subscription plan or have to be paid for.</p>
 <h4 id="adopt-openjdk"><del>Adopt OpenJDK</del></h4>
 <p>More of pure Java, but currently lacking the promise of backporting fixes to older versions of theirs flavor of JDK.</p>
 <h2 id="build-tool">Build tool</h2>
-<p>We have chosen <a href="https://gradle.org/">Gradle</a> not only as it is the &ldquo;modern standard&rdquo;, but as my detest of the XML goes a long way. The redundancy and verbosity of having &ldquo;close tag&rdquo; can be easily avoided using different approach (JSON, YAML, TOML, Groovy/Kotlin DSLs). I have worked for a company that stored it's business data as XML. I have used XLST/Xpath and XSL-FO to generate PDFs from that internal XML format. IMO xml configuration should not be part of any Java code and I am more than happy that the times of Struts and early Spring are long gone. On the recent versions of Gradle you need just the following two lines to compile and target Java 11:</p>
+<p>We have chosen <a href="https://gradle.org/">Gradle</a> not only as it is the &ldquo;modern standard&rdquo;, but as my detest of the XML goes a long way. The redundancy and verbosity of having &ldquo;close tag&rdquo; can be easily avoided using different approach (JSON, YAML, TOML, Groovy/Kotlin DSLs). I have worked for a company that stored it&rsquo;s business data as XML. I have used XLST/Xpath and XSL-FO to generate PDFs from that internal XML format. IMO xml configuration should not be part of any Java code and I am more than happy that the times of Struts and early Spring are long gone. On the recent versions of Gradle you need just the following two lines to compile and target Java 11:</p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-groovy" data-lang="groovy">sourceCompatibility <span style="color:#f92672">=</span> <span style="color:#ae81ff">11</span>
 targetCompatibility <span style="color:#f92672">=</span> <span style="color:#ae81ff">11</span>
 </code></pre></div><p>Compare that to the required Maven config:</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-xml" data-lang="xml"><span style="color:#f92672">&lt;plugin</span><span style="color:#f92672">&gt;</span>
-    <span style="color:#f92672">&lt;groupId</span><span style="color:#f92672">&gt;</span>org.apache.maven.plugins<span style="color:#f92672">&lt;/groupId&gt;</span>
-    <span style="color:#f92672">&lt;artifactId</span><span style="color:#f92672">&gt;</span>maven-compiler-plugin<span style="color:#f92672">&lt;/artifactId&gt;</span>
-    <span style="color:#f92672">&lt;version</span><span style="color:#f92672">&gt;</span>3.8.0<span style="color:#f92672">&lt;/version&gt;</span>
-    <span style="color:#f92672">&lt;configuration</span><span style="color:#f92672">&gt;</span>
-        <span style="color:#f92672">&lt;release</span><span style="color:#f92672">&gt;</span>11<span style="color:#f92672">&lt;/release&gt;</span>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-xml" data-lang="xml"><span style="color:#f92672">&lt;plugin&gt;</span>
+    <span style="color:#f92672">&lt;groupId&gt;</span>org.apache.maven.plugins<span style="color:#f92672">&lt;/groupId&gt;</span>
+    <span style="color:#f92672">&lt;artifactId&gt;</span>maven-compiler-plugin<span style="color:#f92672">&lt;/artifactId&gt;</span>
+    <span style="color:#f92672">&lt;version&gt;</span>3.8.0<span style="color:#f92672">&lt;/version&gt;</span>
+    <span style="color:#f92672">&lt;configuration&gt;</span>
+        <span style="color:#f92672">&lt;release&gt;</span>11<span style="color:#f92672">&lt;/release&gt;</span>
     <span style="color:#f92672">&lt;/configuration&gt;</span>
 <span style="color:#f92672">&lt;/plugin&gt;</span>
 </code></pre></div><p>Also <a href="https://stackoverflow.com/questions/49398894/unable-to-compile-simple-java-10-java-11-project-with-maven">those headaches</a> related to using Maven and JDK &gt;= 9.</p>
 <h2 id="main-framework--serverless-provider--webapp-container">Main framework / Server(less) provider / WebApp container</h2>
 <p>To be honest this is not as easy choice as someone may think. We have projects using <a href="https://micronaut.io">Micronaut</a>, <a href="https://www.dropwizard.io">Dropwizard</a> and <a href="https://aws.amazon.com/lambda">AWS Lambda</a> along with monoliths using <a href="https://spring.io">Spring</a> deployed on Jetty. <a href="https://quarkus.io">Quarkus</a> is currently the new kid on the block that was also considered. <a href="https://struts.apache.org">Struts</a> is still alive, <a href="https://vertx.io">Vert.x</a> and <a href="https://vaadin.com">Vaadin</a> are also options.</p>
-<p>Someone once compared Micronaut to a tool and Spring to the whole hardware store(I could not agree more). Our choice(though one) was to go with Spring. Not only that it offers almost any tool that we will ever need, but is modular so one can chose which things &ldquo;to grab&rdquo; from the &ldquo;hardware store&rdquo;. It is easy to find talented devs that know it's internals. The documentation is in its own class, IMO no other framework comes close. The &ldquo;more modern&rdquo; frameworks (looking @Micronaut) may offer the basics, but when it comes to something specific it feels somewhat lacking to the point that a team of my company had to open a PR to fix a bug that we were experiencing.</p>
+<p>Someone once compared Micronaut to a tool and Spring to the whole hardware store(I could not agree more). Our choice(though one) was to go with Spring. Not only that it offers almost any tool that we will ever need, but is modular so one can chose which things &ldquo;to grab&rdquo; from the &ldquo;hardware store&rdquo;. It is easy to find talented devs that know it&rsquo;s internals. The documentation is in its own class, IMO no other framework comes close. The &ldquo;more modern&rdquo; frameworks (looking @Micronaut) may offer the basics, but when it comes to something specific it feels somewhat lacking to the point that a team of my company had to open a PR to fix a bug that we were experiencing.</p>
 <h3 id="our-choice-spring-boot--springhttpsspringio">Our choice: <a href="https://spring.io">Spring Boot + Spring</a></h3>
 <p>Production proven. Suitable for microservice architecture. Easy to find people with working experience and knowledge of it. Rich ecosystem.</p>
 <h2 id="quality-of-life-framework">Quality of Life framework</h2>
-<p><a href="https://projectlombok.org">Lombok</a> - Some people hate it(<a href="https://medium.com/@ppbruna/why-you-should-not-use-lombok-f7556662e8c3">Bruna Pereira</a>, <a href="https://medium.com/@vgonzalo/dont-use-lombok-672418daa819">Gonzalo Vallejos</a>, some love it and can't live without it. Defining <code>data classes</code> becomes easier than Java, still not at the level of Kotlin. Extra care should be taken to not hit any known bugs/features of Lombok.</p>
+<p><a href="https://projectlombok.org">Lombok</a> - Some people hate it(<a href="https://medium.com/@ppbruna/why-you-should-not-use-lombok-f7556662e8c3">Bruna Pereira</a>, <a href="https://medium.com/@vgonzalo/dont-use-lombok-672418daa819">Gonzalo Vallejos</a>, some love it and can&rsquo;t live without it. Defining <code>data classes</code> becomes easier than Java, still not at the level of Kotlin. Extra care should be taken to not hit any known bugs/features of Lombok.</p>
 <h2 id="container-tech--container-orchestration">Container tech / Container orchestration</h2>
 <p><a href="https://www.docker.com/">Docker</a></p>
-<p>Extensive documentation, easy to find people with working experience with it both Developers and Dev Ops. More than 80% of container market &ldquo;owned&rdquo; by Docker. <a href="https://coreos.com/rkt/docs/1.28.0/rkt-vs-other-projects.html">CoreOS's rkt</a>, <a href="https://mesosphere.github.io/marathon">Mesos's Marathon</a>, <a href="https://linuxcontainers.org">lxc</a> and others are lacking the rich ecosystem that Docker has, too complex or too immature to consider.</p>
+<p>Extensive documentation, easy to find people with working experience with it both Developers and Dev Ops. More than 80% of container market &ldquo;owned&rdquo; by Docker. <a href="https://coreos.com/rkt/docs/1.28.0/rkt-vs-other-projects.html">CoreOS&rsquo;s rkt</a>, <a href="https://mesosphere.github.io/marathon">Mesos&rsquo;s Marathon</a>, <a href="https://linuxcontainers.org">lxc</a> and others are lacking the rich ecosystem that Docker has, too complex or too immature to consider.</p>
 <p><a href="https://kubernetes.io">K8s</a></p>
 <p>My company is using on premise hosted K8s deployment. Inbuilt logging and monitor tools. Dashboard. Automatic rollbacks, rolling updates.</p>
 <p><a href="https://helm.sh/">Helm</a></p>
@@ -185,7 +185,7 @@ targetCompatibility <span style="color:#f92672">=</span> <span style="color:#ae8
 <p><a href="http://www.slf4j.org">SLF4J</a>
 This logging facade already offers a fluent API akin to Flogger. Painless switching of backends. Mandatory read: <a href="http://www.slf4j.org/manual.html">SLF4J Manual</a></p>
 <p><a href="https://logging.apache.org/log4j/2.x">Log4j2</a> / <a href="http://logback.qos.ch">Logback</a>
-We should consider which backend engine to use, as both have Pros and Cons. Spring's usage of Logback might tilt the scale.</p>
+We should consider which backend engine to use, as both have Pros and Cons. Spring&rsquo;s usage of Logback might tilt the scale.</p>
 <p><a href="https://github.com/google/flogger">Flogger</a>
 Fluent API logging developed and supported by Google - sounds cool, but still too immature, till recently was using Log4j (not 2!) as the only backend.</p>
 <h2 id="message-system--stream-data-processing">Message system / Stream data processing</h2>

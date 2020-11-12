@@ -106,3 +106,9 @@ a:hover {
 footer {
     border-bottom: var(--border-width) solid var(--accent);
 }
+
+@media only screen {
+    .intro > h1 {
+        font-size: 6vh;
+    }
+}
