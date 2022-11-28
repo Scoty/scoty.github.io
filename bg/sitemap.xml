@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+    
+      <url>
+            <loc>https://scoty.github.io/bg/projects/betradar/</loc>
+            <lastmod>2021-03-24T00:00:00+00:00</lastmod>
+            <changefreq>daily</changefreq>
+            <priority>0.5</priority>
+            <xhtml:link
+              rel="alternate"
+              hreflang="en"
+              href="https://scoty.github.io/projects/betradar/"
+              />
+            <xhtml:link
+              rel="alternate"
+              hreflang="bg"
+              href="https://scoty.github.io/bg/projects/betradar/"
+              />
+          </url>
+    
+  
+    
+      <url>
+            <loc>https://scoty.github.io/bg/tags/crypto/</loc>
+            <lastmod>2021-03-24T00:00:00+00:00</lastmod>
+            <changefreq>daily</changefreq>
+            <priority>0.5</priority>
+            <xhtml:link
+              rel="alternate"
+              hreflang="en"
+              href="https://scoty.github.io/tags/crypto/"
+              />
+            <xhtml:link
+              rel="alternate"
+              hreflang="bg"
+              href="https://scoty.github.io/bg/tags/crypto/"
+              />
+          </url>
+    
+  
+    
+      <url>
+            <loc>https://scoty.github.io/bg/tags/java/</loc>
+            <lastmod>2021-03-24T00:00:00+00:00</lastmod>
+            <changefreq>daily</changefreq>
+            <priority>0.5</priority>
+            <xhtml:link
+              rel="alternate"
+              hreflang="en"
+              href="https://scoty.github.io/tags/java/"
+              />
+            <xhtml:link
+              rel="alternate"
+              hreflang="bg"
+              href="https://scoty.github.io/bg/tags/java/"
+              />
+          </url>
+    
+  
+    
+      <url>
+            <loc>https://scoty.github.io/bg/tags/kafka/</loc>
+            <lastmod>2021-03-24T00:00:00+00:00</lastmod>
+            <changefreq>daily</changefreq>
+            <priority>0.5</priority>
+            <xhtml:link
+              rel="alternate"
+              hreflang="en"
+              href="https://scoty.github.io/tags/kafka/"
+              />
+            <xhtml:link
+              rel="alternate"
+              hreflang="bg"
+              href="https://scoty.github.io/bg/tags/kafka/"
+              />
+          </url>
+    
+  
+    
+      <url>
+            <loc>https://scoty.github.io/bg/tags/micro-services/</loc>
+            <lastmod>2021-03-24T00:00:00+00:00</lastmod>
+            <changefreq>daily</changefreq>
+            <priority>0.5</priority>
+            <xhtml:link
+              rel="alternate"
+              hreflang="en"
+              href="https://scoty.github.io/tags/micro-services/"
+              />
+            <xhtml:link
+              rel="alternate"
+              hreflang="bg"
+              href="https://scoty.github.io/bg/tags/micro-services/"
+              />
+          </url>
+    
+  
+    
+      <url>
+            <loc>https://scoty.github.io/bg/posts/</loc>
+            <lastmod>2021-03-24T00:00:00+00:00</lastmod>
+            <changefreq>daily</changefreq>
+            <priority>0.5</priority>
+            <xhtml:link
+              rel="alternate"
+              hreflang="en"
+              href="https://scoty.github.io/posts/"
+              />
+            <xhtml:link
+              rel="alternate"
+              hreflang="bg"
+              href="https://scoty.github.io/bg/posts/"
+              />
+          </url>
+    
+  
+    
+      <url>
+            <loc>https://scoty.github.io/bg/projects/</loc>
+            <lastmod>2021-03-24T00:00:00+00:00</lastmod>
+            <changefreq>daily</changefreq>
+            <priority>0.5</priority>
+            <xhtml:link
+              rel="alternate"
+              hreflang="en"
+              href="https://scoty.github.io/projects/"
+              />
+            <xhtml:link
+              rel="alternate"
+              hreflang="bg"
+              href="https://scoty.github.io/bg/projects/"
+              />
+          </url>
+    
+  
+    
+      <url>
+            <loc>https://scoty.github.io/bg/tags/</loc>
+            <lastmod>2021-03-24T00:00:00+00:00</lastmod>
+            <changefreq>daily</changefreq>
+            <priority>0.5</priority>
+            <xhtml:link
+              rel="alternate"
+              hreflang="en"
+              href="https://scoty.github.io/tags/"
+              />
+            <xhtml:link
+              rel="alternate"
+              hreflang="bg"
+              href="https://scoty.github.io/bg/tags/"
+              />
+          </url>
+    
+  
+    
+      <url>
+            <loc>https://scoty.github.io/bg/posts/my-altcoins-bets/</loc>
+            <lastmod>2021-03-24T00:00:00+00:00</lastmod>
+            <changefreq>daily</changefreq>
+            <priority>0.5</priority>
+            <xhtml:link
+              rel="alternate"
+              hreflang="en"
+              href="https://scoty.github.io/posts/my-altcoins-bets/"
+              />
+            <xhtml:link
+              rel="alternate"
+              hreflang="bg"
+              href="https://scoty.github.io/bg/posts/my-altcoins-bets/"
+              />
+          </url>
+    
+  
+    
+      <url>
+            <loc>https://scoty.github.io/bg/</loc>
+            <lastmod>2021-03-24T00:00:00+00:00</lastmod>
+            <changefreq>daily</changefreq>
+            <priority>0.5</priority>
+            <xhtml:link
+              rel="alternate"
+              hreflang="en"
+              href="https://scoty.github.io/"
+              />
+            <xhtml:link
+              rel="alternate"
+              hreflang="bg"
+              href="https://scoty.github.io/bg/"
+              />
+          </url>
+    
+  
+</urlset>

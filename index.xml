@@ -5,75 +5,88 @@
     <link>https://scoty.github.io/</link>
     <description>Recent content on Scoty.codes</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Fri, 13 Nov 2020 01:05:57 +0200</lastBuildDate><atom:link href="https://scoty.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <language>en</language>
+    <lastBuildDate>Wed, 24 Mar 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://scoty.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Betradar UOF Integration</title>
-      <link>https://scoty.github.io/project/betradar-uof-integration/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <link>https://scoty.github.io/projects/betradar/</link>
+      <pubDate>Wed, 24 Mar 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://scoty.github.io/project/betradar-uof-integration/</guid>
+      <guid>https://scoty.github.io/projects/betradar/</guid>
       <description></description>
-    </item>
-    
-    <item>
-      <title>Pokerstars Sports</title>
-      <link>https://scoty.github.io/project/pokerstars-sports/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://scoty.github.io/project/pokerstars-sports/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>SafeCharge REST API SDK for Java</title>
-      <link>https://scoty.github.io/project/safecharge-rest-api-sdk-for-java/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://scoty.github.io/project/safecharge-rest-api-sdk-for-java/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>GRAO Document Registry</title>
-      <link>https://scoty.github.io/project/grao-document-registry/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://scoty.github.io/project/grao-document-registry/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>My Smart Home Setup</title>
-      <link>https://scoty.github.io/post/my-smart-home-setup/</link>
-      <pubDate>Fri, 13 Nov 2020 01:05:57 +0200</pubDate>
-      
-      <guid>https://scoty.github.io/post/my-smart-home-setup/</guid>
-      <description>What smart appliances do I have Washing machine
-Drying machine
-Robot vacuum cleaner
-Air purifier
-Air moisturiser
-TVs ?!?</description>
-    </item>
-    
-    <item>
-      <title>Learning Multiple New Technologies at the Same Time</title>
-      <link>https://scoty.github.io/post/learning-multiple-new-technologies-at-the-same-time/</link>
-      <pubDate>Sun, 29 Dec 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://scoty.github.io/post/learning-multiple-new-technologies-at-the-same-time/</guid>
-      <description>Intro Learning multiple new technologies may prove to be a challenge. Recently for a new project that I have been assigned to I was in a situation where I had to learn multiple new &amp;ldquo;tricks&amp;rdquo; in timely manner.
-The good thing was THE BUSINESS was on the same page - without first building the sufficient knowledge - we could not deliver what they wanted. This is actually my most important advice - if you or your team are required to do some project involving tech you have no working experience with - have a discussion with the stakeholder and clearly state tnat you will need time to get accounted with tech and plan for it.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://scoty.github.io/projects/betradar/featured.jpeg" />
     </item>
     
     <item>
       <title>Time to Choose the New Project Tech Stack</title>
-      <link>https://scoty.github.io/post/time-to-choose-the-new-project-tech-stack/</link>
+      <link>https://scoty.github.io/posts/time-to-choose-the-new-project-tech-stack/</link>
       <pubDate>Sun, 29 Dec 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://scoty.github.io/post/time-to-choose-the-new-project-tech-stack/</guid>
-      <description>Intro At a team lead it is my responsibility (coordinated with the company&amp;rsquo;s wide technical experience and architects) to choose the new project tech stack. I am the kind of a person that would go with the screaming edge tech just for the rush of experience something new and making my everyday developer life more interesting. However from practical point of view, as the project(integration with a major odds supplier) that we are about to create is somewhat crucial for the business I do not have that liberty and I have to stick with a modern, but proven technologies.</description>
+      <guid>https://scoty.github.io/posts/time-to-choose-the-new-project-tech-stack/</guid>
+      <description>Intro&gt; Intro # As a team leader, it is my responsibility (coordinated with the company&amp;rsquo;s wide technical experience and architects) to choose the new project tech stack. I am the kind of a person that would go with the screaming edge tech just for the rush of experiencing something new and making my everyday developer life more interesting.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://scoty.github.io/posts/time-to-choose-the-new-project-tech-stack/featured.png" />
+    </item>
+    
+    <item>
+      <title>Pokerstars Sports</title>
+      <link>https://scoty.github.io/projects/pokerstars-sports/</link>
+      <pubDate>Wed, 24 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://scoty.github.io/projects/pokerstars-sports/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://scoty.github.io/projects/pokerstars-sports/featured.png" />
+    </item>
+    
+    <item>
+      <title>Learning Multiple New Technologies at the Same Time</title>
+      <link>https://scoty.github.io/posts/learning-multiple-new-technologies-at-the-same-time/</link>
+      <pubDate>Fri, 07 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://scoty.github.io/posts/learning-multiple-new-technologies-at-the-same-time/</guid>
+      <description>Intro&gt; Intro # Learning multiple new technologies may prove to be a challenge. Recently for a new project that I have been assigned to I was in a situation where I had to learn multiple new &amp;ldquo;tricks&amp;rdquo; in a short time.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://scoty.github.io/posts/learning-multiple-new-technologies-at-the-same-time/featured.jpeg" />
+    </item>
+    
+    <item>
+      <title>SafeCharge (now Nuvei)</title>
+      <link>https://scoty.github.io/projects/safecharge/</link>
+      <pubDate>Wed, 24 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://scoty.github.io/projects/safecharge/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://scoty.github.io/projects/safecharge/featured.jpg" />
+    </item>
+    
+    <item>
+      <title>My Smart Home Setup</title>
+      <link>https://scoty.github.io/posts/my-smart-home-setup/</link>
+      <pubDate>Fri, 13 Nov 2020 01:05:57 +0200</pubDate>
+      
+      <guid>https://scoty.github.io/posts/my-smart-home-setup/</guid>
+      <description>Is that really a smart home setup ?!?&gt; Is that really a smart home setup ?!? # NO!
+And I mean - NO I have no dimmable lamps or automatic doors.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://scoty.github.io/posts/my-smart-home-setup/featured.jpg" />
+    </item>
+    
+    <item>
+      <title>Proxiad SEE</title>
+      <link>https://scoty.github.io/projects/proxiad/</link>
+      <pubDate>Wed, 01 Jan 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://scoty.github.io/projects/proxiad/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://scoty.github.io/projects/proxiad/featured_proxiad.jpg" />
+    </item>
+    
+    <item>
+      <title>My Altcoins Bets</title>
+      <link>https://scoty.github.io/posts/my-altcoins-bets/</link>
+      <pubDate>Wed, 24 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://scoty.github.io/posts/my-altcoins-bets/</guid>
+      <description>Is that really a smart home setup ?!?&gt; Is that really a smart home setup ?!? # NO!
+And I mean - NO I have no dimmable lamps or automatic doors.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://scoty.github.io/posts/my-altcoins-bets/featured.jpg" />
     </item>
     
   </channel>

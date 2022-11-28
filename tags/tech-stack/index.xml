@@ -5,25 +5,24 @@
     <link>https://scoty.github.io/tags/tech-stack/</link>
     <description>Recent content in tech stack on Scoty.codes</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Sun, 29 Dec 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://scoty.github.io/tags/tech-stack/index.xml" rel="self" type="application/rss+xml" />
+    <language>en</language>
+    <lastBuildDate>Fri, 07 Feb 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://scoty.github.io/tags/tech-stack/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Learning Multiple New Technologies at the Same Time</title>
-      <link>https://scoty.github.io/post/learning-multiple-new-technologies-at-the-same-time/</link>
+      <title>Time to Choose the New Project Tech Stack</title>
+      <link>https://scoty.github.io/posts/time-to-choose-the-new-project-tech-stack/</link>
       <pubDate>Sun, 29 Dec 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://scoty.github.io/post/learning-multiple-new-technologies-at-the-same-time/</guid>
-      <description>Intro Learning multiple new technologies may prove to be a challenge. Recently for a new project that I have been assigned to I was in a situation where I had to learn multiple new &amp;ldquo;tricks&amp;rdquo; in timely manner.
-The good thing was THE BUSINESS was on the same page - without first building the sufficient knowledge - we could not deliver what they wanted. This is actually my most important advice - if you or your team are required to do some project involving tech you have no working experience with - have a discussion with the stakeholder and clearly state tnat you will need time to get accounted with tech and plan for it.</description>
+      <guid>https://scoty.github.io/posts/time-to-choose-the-new-project-tech-stack/</guid>
+      <description>Intro&gt; Intro # As a team leader, it is my responsibility (coordinated with the company&amp;rsquo;s wide technical experience and architects) to choose the new project tech stack. I am the kind of a person that would go with the screaming edge tech just for the rush of experiencing something new and making my everyday developer life more interesting.</description>
     </item>
     
     <item>
-      <title>Time to Choose the New Project Tech Stack</title>
-      <link>https://scoty.github.io/post/time-to-choose-the-new-project-tech-stack/</link>
-      <pubDate>Sun, 29 Dec 2019 00:00:00 +0000</pubDate>
+      <title>Learning Multiple New Technologies at the Same Time</title>
+      <link>https://scoty.github.io/posts/learning-multiple-new-technologies-at-the-same-time/</link>
+      <pubDate>Fri, 07 Feb 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://scoty.github.io/post/time-to-choose-the-new-project-tech-stack/</guid>
-      <description>Intro At a team lead it is my responsibility (coordinated with the company&amp;rsquo;s wide technical experience and architects) to choose the new project tech stack. I am the kind of a person that would go with the screaming edge tech just for the rush of experience something new and making my everyday developer life more interesting. However from practical point of view, as the project(integration with a major odds supplier) that we are about to create is somewhat crucial for the business I do not have that liberty and I have to stick with a modern, but proven technologies.</description>
+      <guid>https://scoty.github.io/posts/learning-multiple-new-technologies-at-the-same-time/</guid>
+      <description>Intro&gt; Intro # Learning multiple new technologies may prove to be a challenge. Recently for a new project that I have been assigned to I was in a situation where I had to learn multiple new &amp;ldquo;tricks&amp;rdquo; in a short time.</description>
     </item>
     
   </channel>

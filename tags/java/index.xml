@@ -5,51 +5,51 @@
     <link>https://scoty.github.io/tags/java/</link>
     <description>Recent content in java on Scoty.codes</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Sun, 29 Dec 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://scoty.github.io/tags/java/index.xml" rel="self" type="application/rss+xml" />
+    <language>en</language>
+    <lastBuildDate>Wed, 24 Mar 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://scoty.github.io/tags/java/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Betradar UOF Integration</title>
-      <link>https://scoty.github.io/project/betradar-uof-integration/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <link>https://scoty.github.io/projects/betradar/</link>
+      <pubDate>Wed, 24 Mar 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://scoty.github.io/project/betradar-uof-integration/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Pokerstars Sports</title>
-      <link>https://scoty.github.io/project/pokerstars-sports/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://scoty.github.io/project/pokerstars-sports/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>SafeCharge REST API SDK for Java</title>
-      <link>https://scoty.github.io/project/safecharge-rest-api-sdk-for-java/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://scoty.github.io/project/safecharge-rest-api-sdk-for-java/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>GRAO Document Registry</title>
-      <link>https://scoty.github.io/project/grao-document-registry/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://scoty.github.io/project/grao-document-registry/</guid>
+      <guid>https://scoty.github.io/projects/betradar/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Time to Choose the New Project Tech Stack</title>
-      <link>https://scoty.github.io/post/time-to-choose-the-new-project-tech-stack/</link>
+      <link>https://scoty.github.io/posts/time-to-choose-the-new-project-tech-stack/</link>
       <pubDate>Sun, 29 Dec 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://scoty.github.io/post/time-to-choose-the-new-project-tech-stack/</guid>
-      <description>Intro At a team lead it is my responsibility (coordinated with the company&amp;rsquo;s wide technical experience and architects) to choose the new project tech stack. I am the kind of a person that would go with the screaming edge tech just for the rush of experience something new and making my everyday developer life more interesting. However from practical point of view, as the project(integration with a major odds supplier) that we are about to create is somewhat crucial for the business I do not have that liberty and I have to stick with a modern, but proven technologies.</description>
+      <guid>https://scoty.github.io/posts/time-to-choose-the-new-project-tech-stack/</guid>
+      <description>Intro&gt; Intro # As a team leader, it is my responsibility (coordinated with the company&amp;rsquo;s wide technical experience and architects) to choose the new project tech stack. I am the kind of a person that would go with the screaming edge tech just for the rush of experiencing something new and making my everyday developer life more interesting.</description>
+    </item>
+    
+    <item>
+      <title>Pokerstars Sports</title>
+      <link>https://scoty.github.io/projects/pokerstars-sports/</link>
+      <pubDate>Wed, 24 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://scoty.github.io/projects/pokerstars-sports/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>SafeCharge (now Nuvei)</title>
+      <link>https://scoty.github.io/projects/safecharge/</link>
+      <pubDate>Wed, 24 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://scoty.github.io/projects/safecharge/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Proxiad SEE</title>
+      <link>https://scoty.github.io/projects/proxiad/</link>
+      <pubDate>Wed, 01 Jan 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://scoty.github.io/projects/proxiad/</guid>
+      <description></description>
     </item>
     
   </channel>
