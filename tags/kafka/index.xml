@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>kafka on Scoty.codes</title>
+    <link>https://scoty.github.io/tags/kafka/</link>
+    <description>Recent content in kafka on Scoty.codes</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 24 Mar 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://scoty.github.io/tags/kafka/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Betradar UOF Integration</title>
+      <link>https://scoty.github.io/projects/betradar/</link>
+      <pubDate>Wed, 24 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://scoty.github.io/projects/betradar/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Time to Choose the New Project Tech Stack</title>
+      <link>https://scoty.github.io/posts/time-to-choose-the-new-project-tech-stack/</link>
+      <pubDate>Sun, 29 Dec 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://scoty.github.io/posts/time-to-choose-the-new-project-tech-stack/</guid>
+      <description>Intro&gt; Intro # As a team leader, it is my responsibility (coordinated with the company&amp;rsquo;s wide technical experience and architects) to choose the new project tech stack. I am the kind of a person that would go with the screaming edge tech just for the rush of experiencing something new and making my everyday developer life more interesting.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on Скоти.програмира</title>
+    <link>https://scoty.github.io/bg/tags/</link>
+    <description>Recent content in Tags on Скоти.програмира</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>bg</language>
+    <lastBuildDate>Wed, 24 Mar 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://scoty.github.io/bg/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>crypto</title>
+      <link>https://scoty.github.io/bg/tags/crypto/</link>
+      <pubDate>Wed, 24 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://scoty.github.io/bg/tags/crypto/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>java</title>
+      <link>https://scoty.github.io/bg/tags/java/</link>
+      <pubDate>Wed, 24 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://scoty.github.io/bg/tags/java/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>kafka</title>
+      <link>https://scoty.github.io/bg/tags/kafka/</link>
+      <pubDate>Wed, 24 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://scoty.github.io/bg/tags/kafka/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>micro-services</title>
+      <link>https://scoty.github.io/bg/tags/micro-services/</link>
+      <pubDate>Wed, 24 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://scoty.github.io/bg/tags/micro-services/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

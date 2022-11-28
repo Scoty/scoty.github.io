@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Projects on Scoty.codes</title>
+    <link>https://scoty.github.io/projects/</link>
+    <description>Recent content in Projects on Scoty.codes</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 24 Mar 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://scoty.github.io/projects/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Betradar UOF Integration</title>
+      <link>https://scoty.github.io/projects/betradar/</link>
+      <pubDate>Wed, 24 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://scoty.github.io/projects/betradar/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Pokerstars Sports</title>
+      <link>https://scoty.github.io/projects/pokerstars-sports/</link>
+      <pubDate>Wed, 24 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://scoty.github.io/projects/pokerstars-sports/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>SafeCharge (now Nuvei)</title>
+      <link>https://scoty.github.io/projects/safecharge/</link>
+      <pubDate>Wed, 24 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://scoty.github.io/projects/safecharge/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Proxiad SEE</title>
+      <link>https://scoty.github.io/projects/proxiad/</link>
+      <pubDate>Wed, 01 Jan 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://scoty.github.io/projects/proxiad/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
